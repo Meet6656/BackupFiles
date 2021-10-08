@@ -1,0 +1,42 @@
+{
+    "workbench.productIconTheme": "icons-carbon",
+    "editor.fontFamily": "Operator Mono Lig, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 20,
+    "editor.cursorStyle": "block",
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+    "workbench.settings.openDefaultKeybindings": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "name": "Comment",
+            "scope": [
+              "comment",
+              "comment.block",
+              "comment.block.documentation",
+              "comment.line",
+              "comment.line.double-slash",
+              "punctuation.definition.comment",
+            ],
+            "settings": {
+              "fontStyle": "italic underline",
+              // "fontStyle": "italic underline",
+              // "fontStyle": "italic bold underline",
+            }
+          },
+          {
+            "name": "Keyword",
+            "scope": [
+              "keyword"
+            ],
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }
+        ]
+      },
+
+}
